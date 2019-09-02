@@ -11,5 +11,24 @@ Pyenv is used to install and manage different Python-versions. With the addition
   * [pyenv-which-ext](https://github.com/pyenv/pyenv-which-ext)
 - Install a couple of the latest Python versions, and possibly also `miniconda-latest`
 
+### Create a virtual environment and activate it for this directory
+```
+pyenv install 3.5.7
+pyenv install 3.6.9
+pyenv install 3.7.4
+pyenv virtualenv 3.7.4 myproject
+```
+
+Set the virtual environment as default, make a couple of older Python-versions available.
+```
+pyenv local myproject 3.6.9 3.5.7
+```
+
 ## Install [poetry](https://github.com/sdispater/poetry)
-Using Poetry replaces for setup.py, setpu.cfg, requirements.txt, MANIFEST.IN, etc.
+Using Poetry replaces setup.py, setpu.cfg, requirements.txt, MANIFEST.IN, etc.
+
+### Install this project into the virtual environment
+```
+poetry install
+```
+
