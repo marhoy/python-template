@@ -23,8 +23,10 @@ pyenv virtualenv 3.7.4 myproject
 
 Set the virtual environment as default, make a couple of older Python-versions available.
 ```
-pyenv local myproject 3.6.9 3.5.7
+pyenv local myproject 3.7.4 3.6.9 3.5.7
 ```
+note that 3.7.4 is listed, even though the virtual environment is based on this Python version.
+
 
 ## Install [poetry](https://github.com/sdispater/poetry)
 Using Poetry replaces setup.py, setpu.cfg, requirements.txt, MANIFEST.IN, etc.
