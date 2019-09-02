@@ -3,6 +3,8 @@ A starting template for a Python project
 
 # Setting up a developer environment
 
+Recommended reading: [Python tooling](https://medium.com/georgian-impact-blog/python-tooling-makes-a-project-tick-181d567eea44)
+
 ## Install [pyenv](https://github.com/pyenv/pyenv)
 Pyenv is used to install and manage different Python-versions. With the additional plugin pyenv-virtualenv, it also manages virtual environments.
 
