@@ -31,7 +31,7 @@ note that 3.7.4 is listed, even though the virtual environment is based on this 
 ## Install [poetry](https://github.com/sdispater/poetry)
 Using Poetry replaces setup.py, setpu.cfg, requirements.txt, MANIFEST.IN, etc.
 
-### Install this project into the virtual environment
+## Install this project into the virtual environment
 ```
 poetry install
 ```
