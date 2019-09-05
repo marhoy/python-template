@@ -9,9 +9,10 @@ python = "^3.5 || ^3.6 || ^3.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.0"		# pytest 5.x requires python >= 3.5
-tox = "^3.13"
 pytest-cov = "^2.7"
 flake8 = "^3.7"
+mypy = "^0.720.0"
+tox = "^3.13"
 sphinx = "^2.2"		# sphinx 2.2 requires python >= 3.5
 sphinx_rtd_theme = "^0.4.3"
 
